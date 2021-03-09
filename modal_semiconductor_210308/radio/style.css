@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+.bg {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 570px;
+  background-color: #fff;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 18px;
+  position: relative;
+  border-radius: 20px 0 20px 20px;
+}
+
+.inputWrapper {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.container {
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+
+.insideImg {
+  position: relative;
+  width: 93px;
+  height: 93px;
+  background: url('blue.jpg');
+  background-size: contain;
+  border-radius: 50%;
+}
+
+/*radio 버튼 색상변경 */
+.radioBtn {
+  appearance: none;
+  width: 24px;
+  height: 24px;
+  border: 1px solid darkgray;
+  border-radius: 50%;
+  outline: none;
+  background: #fff;
+  margin: 15px 0 18px;
+}
+
+.radioBtn:before {
+  content:'';
+  display:block;
+  width: 60%;
+  height: 60%;
+  margin: 20% auto;  
+  border-radius: 50%;
+}
+
+.radioBtn:hover {
+  cursor: pointer;
+}
+
+.radioBtn:checked {
+  border: 1px solid #fff;
+  background-color: #44BDC6;
+}
+
+.radioBtn:checked:before {
+  background: #fff;
+}
+
+/* submit-button */
+
+.submitBtnWrapper {
+  width: 100%;
+  height: 70px;
+  background-color: #fff;
+  border-radius: 0 0 20px 20px;
+}
+
+.submitButton {
+  all: unset;
+  display: block;
+  background-color: #078bc7;
+  color: white;
+  padding: 15px 59px 15px 58px;
+  margin: 4px auto 20px;
+}
+
+.submitButton:hover {
+  cursor: pointer;
+}
+
+/* outside image */
+
+.outsideImg {
+  position: absolute;
+  width: 93px;
+  height: 93px;
+  background: url('white.png');
+  background-size: contain;
+  border-radius: 50%;
+}
+
+#img1,
+#img2 {
+  top: -145px;
+}
+
+#img3 {
+  left: -190px;
+}
+
+#img4 {
+  right: -190px;
+}
+
+/* cloas button*/
+
+.closeBtn {
+  all: unset;
+  width: 70px;
+  height: 70px;
+  background: url('./closeBtn.png');
+  background-size: contain;
+  position: absolute;
+  right: -70px;
+}
+
+.closeBtn:hover {
+  cursor: pointer;
+}
+
+#firstContainer {
+  border-top-left-radius: 20px;
+}

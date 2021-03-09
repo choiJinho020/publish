@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+.text-bg {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.text-modal {
+  display: flex;
+  flex-direction: column;
+  width: 630px;
+  height: 540px;
+  background-color: #fff;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 18px;
+  position: relative;
+  border-radius: 20px 0 20px 20px;
+}
+
+.text-submitButton {
+  all: unset;
+  display: block;
+  background-color: #078bc7;
+  color: white;
+  padding: 15px 59px 15px 58px;
+  margin: 20px auto 20px;
+}
+
+.text-submitButton:hover {
+  cursor: pointer;
+}
+
+/* cloas button*/
+
+.text-closeBtn {
+  all: unset;
+  width: 70px;
+  height: 70px;
+  background: url('./closeBtn.png');
+  background-size: contain;
+  position: absolute;
+  right: -70px;
+}
+
+.text-closeBtn:hover {
+  cursor: pointer;
+}
+
+/* New */
+.text-header {
+  font-size: 34px;
+  margin: 49px 54px 19px;
+}
+
+.text-container {
+  padding: 0 50px;
+}
+
+.text-row {
+  border-bottom: 1px solid #EAEDEF;
+}
+
+.text-row-top {
+  border-top: 2px solid #6390C6;
+}
+
+.text-row-bottom {
+  height: 130px;
+}
+
+.text-label {
+  padding: 12px 0;
+  text-align: center;
+  background-color: #F5F5F5;
+  font-weight: 700;
+}
+
+.text-input-container {
+  width: 412px;
+  padding: 12px;
+}
+
+.text-input {
+  width: 100%;
+}
+
+.text-input-bottom {
+  height: 104.5px;
+}
+
+textarea {
+  resize: none;
+}

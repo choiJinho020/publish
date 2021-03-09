@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg">
+    <form class="modal">
+      <div class="inputWrapper">
+        <div class="container" id="firstContainer">
+          <div class="insideImg">      
+            <div class="outsideImg" id="img1"></div>
+          </div>
+          <input type="radio" name="분야" value="소자 반도체" class="radioBtn">
+          <span class="title">소자 반도체</span>
+        </div>
+        <div class="container">
+          <div class="insideImg">      
+            <div class="outsideImg" id="img2"></div>
+          </div>
+          <input type="radio" name="분야" value="인공지능 반도체" class="radioBtn">
+          <span class="title">인공지능 반도체</span>
+        </div>
+        <div class="container">
+          <div class="insideImg">      
+            <div class="outsideImg" id="img3"></div>
+          </div>
+          <input type="radio" name="분야" value="상용 반도체" class="radioBtn">
+          <span class="title">상용 반도체</span>
+        </div>
+        <div class="container">
+          <div class="insideImg">
+            <div class="outsideImg" id="img4"></div>
+          </div>
+          <input type="radio" name="분야" value="제조·장비" class="radioBtn">
+          <span class="title">제조·장비</span>
+        </div>
+      </div>
+      <div class="submitBtnWrapper">
+        <button class="submitButton">등록하기</button>
+      </div>
+      <button class="closeBtn"></button>
+    </form>
+  </div>
+  <script src="select.js"></script>
+  <script src="submit.js"></script>
+  <script src="close.js"></script>
+</body>
+</html>
